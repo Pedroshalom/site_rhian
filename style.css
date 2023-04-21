@@ -724,9 +724,9 @@ html {
 }
 
 @media (max-width: 768px){
-	.mobile-menu {
+	/* .mobile-menu {
 		display: block;
-	}
+	} */
 	header ul {
 		display: none;
 	}
