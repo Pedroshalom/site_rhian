@@ -515,7 +515,7 @@ header h1 a {
 	transition: .3s;
 }
 header h1 a:hover {
-	color: #F84744;
+	color: #00804b;
 }
 header ul {
 	float: right;
@@ -528,7 +528,7 @@ header ul li a {
 	transition: .3s;
 }
 header ul li a:hover {
-	color: #F84744;
+	color: #00804b;
 }
 a {
 	text-decoration: none;
@@ -581,12 +581,32 @@ a {
 
 
 .banner {
-	background-color: #1F68B6;
+	display: flex;
+    background: url(assets/back.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
 	padding:150px 0;
 }
 section {
 	padding:50px 0;
 }
+
+
+.divv {
+    float: right;
+}
+
+.divvv {
+    float: left;
+}
+
+.divvi {
+    float:none;
+}
+
 .banner img {
 	width: 300px;
 	border-radius: 10px;
@@ -596,7 +616,7 @@ section {
 .banner h2,
 .banner p,
 .banner span {
-	color: #fff;
+	color: #00804b;
 }
 .banner h2 {
 	margin-bottom: 10px;
@@ -712,12 +732,13 @@ section h3::after {
 	margin-bottom: 15px;
 }
 footer {
-	background-color: #333;
-	padding:50px;
+	background-color: black;
+	padding:10px;
 	text-align: center;
 }
 footer small {
-	color: #fff;
+	color: #00804b;
+    font-size: 20px;
 }
 html {
 	scroll-behavior: smooth;

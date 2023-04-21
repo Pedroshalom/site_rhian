@@ -1,3 +1,9 @@
+const txtElement = ['Rhian Ferraz'];
+let count = 0;
+let txtIndex = 0;
+let currentTxt = '';
+let words = '';
+
 (function ngetik(){
 
 	if(count == txtElement.length){
